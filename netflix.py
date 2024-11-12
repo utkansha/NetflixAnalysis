@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# Load the processed data (assuming you saved it as 'processed_netflix_data.csv')
-df = pd.read_csv("processed_netflix_data.csv", index_col=0)
+df = pd.read_csv("netflix_titles.csv", index_col=0)
 
 # Title and Introduction
 st.title("Netflix Titles Exploration")
